@@ -1,0 +1,29 @@
+# Build artifacts
+/build/
+*.pbw
+.lock-waf_*
+waf-*-*/
+.cache
+.clangd
+
+# Dependencies
+/node_modules/
+
+# Editor / tooling (regenerate with pebble compile-commands)
+/compile_commands.json
+
+# Logs & scratch
+*.log
+/_tmp/
+health_export.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+.vscode

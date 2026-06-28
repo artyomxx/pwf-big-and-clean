@@ -1,0 +1,65 @@
+{
+  "name": "pwf-big-and-clean-and-all",
+  "author": "artyom",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app",
+    "watchface",
+    "pebble-time-2"
+  ],
+  "dependencies": {
+    "@rebble/clay": "^1.0.10"
+  },
+  "pebble": {
+    "displayName": "Big and clean and all",
+    "uuid": "cdf60f55-bc70-4fc5-8bdb-cf36731542d8",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "emery"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "capabilities": [
+      "health",
+      "configurable",
+      "location"
+    ],
+    "messageKeys": [
+      "REQUEST_SOLAR",
+      "UsePhoneGPS",
+      "Latitude",
+      "Longitude",
+      "LatitudeE6",
+      "LongitudeE6",
+      "AltitudeM",
+      "TimezoneOffsetM",
+      "ShowSteps",
+      "ShowBpm",
+      "ShowSun",
+      "ShowMoon",
+      "ShowBattery",
+      "ShowLabels",
+      "ShowTimeline",
+      "ShowTimelineLabels",
+      "SleepHoursX10",
+      "WakeFromSleep",
+      "ManualWakeMin",
+      "WakeDurationMin",
+      "WindDownMin",
+      "ShowTime",
+      "ShowDate",
+      "DateFormat",
+      "HumanEraYear",
+      "DateAboveTime",
+      "DbgProfileCmd",
+      "DbgProfileAck",
+      "DbgProfileElapsed",
+      "DbgProfileTick"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}

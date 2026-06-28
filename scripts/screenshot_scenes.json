@@ -1,0 +1,92 @@
+{
+	"defaults": {
+		"time": "15:00:00",
+		"battery_percent": 85,
+		"location": {
+			"UsePhoneGPS": 0,
+			"LatitudeE6": 59913900,
+			"LongitudeE6": 10752200,
+			"AltitudeM": 50,
+			"TimezoneOffsetM": 120
+		},
+		"DateAboveTime": 1,
+		"ShowTimeline": 0,
+		"ShowTimelineLabels": 1,
+		"ShowBpm": 0,
+		"ShowSteps": 0,
+		"ShowSun": 0,
+		"ShowMoon": 0,
+		"ShowDate": 0,		
+		"ShowLabels": 0,
+		"ShowBattery": 0
+	},
+	"scenes": [
+		{
+			"id": "hero",
+			"filename": "emery_hero.png",
+			"description": "Default face: time, health row, sun/moon, labels",
+			"time": "15:20:00",
+			"settings": {
+				"ShowLabels": 1,
+				"ShowTime": 1,
+				"ShowSteps": 1,
+				"ShowBpm": 1,
+				"ShowBattery": 1,
+				"ShowSun": 1,
+				"ShowMoon": 1,
+				"ShowDate": 1,
+				"ShowTimeline": 1
+			}
+		},
+		{
+			"id": "everything-but-labels",
+			"filename": "emery_everything-but-labels.png",
+			"description": "Everything but labels",
+			"time": "14:30:00",
+			"settings": {
+				"ShowTime": 1,
+				"ShowSteps": 1,
+				"ShowBpm": 1,
+				"ShowBattery": 1,
+				"ShowSun": 1,
+				"ShowMoon": 1,
+				"ShowDate": 1,
+				"ShowTimeline": 1
+			}
+		},
+		{
+			"id": "date-and-timeline-only",
+			"filename": "emery_date-and-timeline-only.png",
+			"description": "Date and timeline only",
+			"time": "17:29:00",
+			"settings": {
+				"ShowTime": 0,
+				"ShowBattery": 1,
+				"ShowDate": 1,
+				"DateFormat": 1,
+				"ShowTimeline": 1,
+				"DateAboveTime": 0
+			}
+		},
+		{
+			"id": "actually-clean",
+			"filename": "emery_actually-clean.png",
+			"description": "Actually clean time-only layout",
+			"settings": {
+				"ShowTime": 1
+			}
+		},
+		{
+			"id": "human-era",
+			"filename": "emery_human_era.png",
+			"description": "Human Era year (+10K)",
+			"settings": {
+				"ShowTime": 1,
+				"ShowBattery": 1,
+				"ShowDate": 1,
+				"DateFormat": 3,
+				"HumanEraYear": 1
+			}
+		}
+	]
+}
