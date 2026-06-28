@@ -4,6 +4,8 @@ A configurable Pebble watchface for **Pebble Time 2 (emery)** — large time, op
 steps/BPM, sun & moon times, day timeline, and many date formats. Built with the
 [Rebble SDK](https://developer.repebble.com) (C + Clay/PKJS).
 
+[Get on App Store](https://apps.rebble.io/en_US/application/6a416d6912f6bb00095df70f)
+
 <table>
 <tr>
   <td>Everything</td>
