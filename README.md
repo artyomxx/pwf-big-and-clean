@@ -4,7 +4,22 @@ A configurable Pebble watchface for **Pebble Time 2 (emery)** — large time, op
 steps/BPM, sun & moon times, day timeline, and many date formats. Built with the
 [Rebble SDK](https://developer.repebble.com) (C + Clay/PKJS).
 
-![screenshots](screenshots/screenshots.gif)
+<table>
+<tr>
+  <td>Everything</td>
+  <td>Everything but labels</td>
+  <td>Date and timeline only</td>
+  <td>Actually big and clean</td>
+  <td>Human Era year</td>
+</tr>
+<tr>
+  <td><img alt='everything' src=https://raw.githubusercontent.com/artyomxx/pwf-big-and-clean/refs/heads/main/screenshots/emery_hero.png></td>
+  <td><img alt='everything but labels' src=https://raw.githubusercontent.com/artyomxx/pwf-big-and-clean/refs/heads/main/screenshots/emery_everything-but-labels.png></td>
+  <td><img alt='date and timeline only' src=https://raw.githubusercontent.com/artyomxx/pwf-big-and-clean/refs/heads/main/screenshots/emery_date-and-timeline-only.png></td>
+  <td><img alt='actually big and clean' src=https://raw.githubusercontent.com/artyomxx/pwf-big-and-clean/refs/heads/main/screenshots/emery_actually-clean.png></td>
+  <td><img alt='human era year' src=https://raw.githubusercontent.com/artyomxx/pwf-big-and-clean/refs/heads/main/screenshots/emery_human_era.png></td>
+</tr>
+</table>
 
 ## Features
 
